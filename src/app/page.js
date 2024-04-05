@@ -1,9 +1,9 @@
+import HomeHeader from "@/components/HomeHeader";
 
-
-const Home = () => {
+export default function Home() {
   return (
-    <div className="text-red-500">Home</div>
-  )
+    <>
+      <HomeHeader />
+    </>
+  );
 }
-
-export default Home
